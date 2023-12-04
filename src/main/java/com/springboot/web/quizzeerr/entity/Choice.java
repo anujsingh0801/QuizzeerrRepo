@@ -8,7 +8,7 @@ import jakarta.persistence.OneToOne;
 
 @Entity
 public class Choice {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int Id;

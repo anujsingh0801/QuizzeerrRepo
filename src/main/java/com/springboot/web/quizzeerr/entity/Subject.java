@@ -2,15 +2,12 @@ package com.springboot.web.quizzeerr.entity;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
 
 @Entity(name = "subject")
 public class Subject {
@@ -52,5 +49,5 @@ public class Subject {
 	public void setQuestion(List<Question> question) {
 		this.question = question;
 	}
-	
+
 }

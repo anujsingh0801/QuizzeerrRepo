@@ -10,7 +10,7 @@ import jakarta.persistence.OneToOne;
 
 @Entity
 public class Question {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
