@@ -28,7 +28,7 @@ public class HandleRequest {
 	public String testApi(@RequestParam(value="firstName", required=false) String fn,
 			@RequestParam(value="lastName", required=false) String ln) {
 
-		return "Working Fine - " + fn + " " + ln;
+		return "Working Fine - added to test the merge " + fn + " " + ln;
 	}
 
 	@PostMapping("/addSubject")
